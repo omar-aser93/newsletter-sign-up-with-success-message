@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://github.com/omar-aser93/newsletter-sign-up-with-success-message)
+- Live Site URL: (https://omar-aser93.github.io/newsletter-sign-up-with-success-message/)
 
 ## My process
 
