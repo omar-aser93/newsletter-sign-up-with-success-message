@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Frontend Mentor | Newsletter success message</title>
+</head>
+
+<body>    
+  <section class="success-section">
+    <img src="./images/icon-success.svg" alt="success icon">
+    <h1>Thanks for subscribing!</h1>
+      <p>A confirmation email has been sent to <span> ash@loremcompany.com. </span>
+       Please open it and click the button inside to confirm your subscription.</p>
+      <a href="/index.html" onclick="localStorage.removeItem('userEmail')">Dismiss message</a>
+    </section>  
+
+    <script>
+      //get email from local storage & set it inside the span
+      const emailSpan = document.querySelector(".success-section span");
+      const storedEmail = localStorage.getItem("userEmail");
+      if (storedEmail) { emailSpan.textContent = storedEmail; }
+    </script>
+  
+</body>
+
+</html>
