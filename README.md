@@ -58,6 +58,6 @@ I learned how to use HTML & CSS to create a responsive newsletter sign-up form w
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - (https://omar93-portfolio.netlify.app/)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/omar-aser93)
 
